@@ -1,0 +1,63 @@
+{
+  "filmes": [
+    {
+      "id": "2e60",
+      "titulo": "Filme 06/12",
+      "genero": "Ação",
+      "descricao": "Sinopse de teste",
+      "classificacao": "16",
+      "duracao": 100,
+      "estreia": "2025-12-06"
+    },
+    {
+      "id": "e236",
+      "titulo": "Filme 08/12",
+      "genero": "Ação",
+      "descricao": "Sinopse de teste",
+      "classificacao": "Livre",
+      "duracao": 120,
+      "estreia": "2025-12-08"
+    }
+  ],
+  "salas": [
+    {
+      "id": "ec81",
+      "nome": "Sala 01",
+      "capacidade": 35,
+      "tipo": "2D"
+    },
+    {
+      "id": "5deb",
+      "nome": "Sala XD",
+      "capacidade": 50,
+      "tipo": "IMAX"
+    }
+  ],
+  "sessoes": [
+    {
+      "id": "3aa5",
+      "filmeId": "e236",
+      "salaId": "ec81",
+      "dataHora": "2025-12-08T07:12",
+      "preco": 15
+    },
+    {
+      "id": "5afd",
+      "filmeId": "2e60",
+      "salaId": "5deb",
+      "dataHora": "2025-12-06T12:24",
+      "preco": 15
+    }
+  ],
+  "ingressos": [
+    {
+      "id": "4737",
+      "sessaoId": "3aa5",
+      "cliente": "João",
+      "cpf": "08392930118",
+      "assento": "12",
+      "tipo": "Meia",
+      "valorPago": 7.5
+    }
+  ]
+}
