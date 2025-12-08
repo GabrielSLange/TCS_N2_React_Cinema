@@ -33,3 +33,27 @@ export interface Ingresso {
     tipo: 'Inteira' | 'Meia';
     valorPago: number;
 }
+
+export interface LancheCombo {
+    id: string;
+    nome: string;
+    preco: number;
+    tipo: string;
+}
+
+export interface ItemLancheSelecionado extends LancheCombo {
+    quantidade: number;
+}
+
+export interface Pedido {
+    id: string;
+    sessaoId: string;
+    cliente: string;
+    cpf: string;
+    assento: string;
+    tipoIngresso: 'Inteira' | 'Meia';
+    valorIngresso: number;
+    itensLanche: ItemLancheSelecionado[];
+    valorTotal: number;
+    dataPedido: string;
+}

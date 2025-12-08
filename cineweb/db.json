@@ -59,5 +59,12 @@
       "tipo": "Meia",
       "valorPago": 7.5
     }
+  ],
+  "lanches": [
+    { "id": "1", "nome": "Pipoca Pequena", "preco": 12.00, "tipo": "Pipoca" },
+    { "id": "2", "nome": "Pipoca Grande", "preco": 18.00, "tipo": "Pipoca" },
+    { "id": "3", "nome": "Refrigerante 500ml", "preco": 8.00, "tipo": "Bebida" },
+    { "id": "4", "nome": "Combo Casal (2 Pipocas + 2 Refri)", "preco": 45.00, "tipo": "Combo" },
+    { "id": "5", "nome": "Chocolate", "preco": 5.00, "tipo": "Doce" }
   ]
 }
